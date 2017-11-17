@@ -1,0 +1,20 @@
+{
+  "name": "baucells-ng-hello-test-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --progress --colors index.js app.js",
+    "watch": "webpack --watch --progress --colors index.js app.js",
+    "server_dev": "webpack-dev-server --progress --colors index.js app.js",
+    "server_watch": "webpack-dev-server --progress --colors --watch index.js app.js",
+    "run_web_server": "sensible-browser http://localhost:8081/webpack-dev-server/bundle"
+  },
+  "keywords": [],
+  "author": "Sergi Baucells Rodriguez <sergibaucells@iesebre.com> (https://github.com/SergiBaucells)",
+  "license": "ISC",
+  "dependencies": {
+    "baucells-ng-hello": "^1.0.3"
+  }
+}

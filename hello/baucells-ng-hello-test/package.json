@@ -1,0 +1,15 @@
+{
+  "name": "baucells-ng-hello-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sergi Baucells Rodriguez <sergibaucells@iesebre.com> (https://github.com/SergiBaucells)",
+  "license": "ISC",
+  "dependencies": {
+    "baucells-ng-hello": "^1.0.3"
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "name": "hello",
-  "version": "1.0.0",
+  "name": "baucells-ng-hello",
+  "version": "1.0.3",
   "description": "Bla bla",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "underscore": "^1.8.3"
+    "underscore.string": "^3.3.4"
   }
 }
